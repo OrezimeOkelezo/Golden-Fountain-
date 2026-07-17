@@ -1,0 +1,199 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f8fc;
+color:#333;
+line-height:1.7;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:#003b8e;
+padding:18px 0;
+}
+
+header .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:white;
+}
+
+.logo span{
+color:#f7c948;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.active{
+color:#f7c948;
+}
+
+.hero{
+height:420px;
+background:url("images/about-banner.jpg") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.overlay{
+background:rgba(0,55,120,.75);
+width:100%;
+height:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.overlay h1{
+font-size:55px;
+margin-bottom:15px;
+}
+
+.overlay p{
+font-size:22px;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+padding:80px 0;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:15px;
+box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+.about h2{
+color:#004aad;
+margin-bottom:20px;
+font-size:36px;
+}
+
+.about p{
+margin-bottom:20px;
+}
+
+.mission{
+background:#004aad;
+padding:80px 0;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:12px;
+}
+
+.card h3{
+color:#004aad;
+margin-bottom:15px;
+}
+
+.card ul{
+padding-left:20px;
+}
+
+.why{
+padding:80px 0;
+text-align:center;
+}
+
+.why h2{
+font-size:38px;
+color:#004aad;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+}
+
+.box{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-8px);
+}
+
+.box h3{
+color:#004aad;
+margin-bottom:10px;
+}
+
+footer{
+background:#002b66;
+color:white;
+text-align:center;
+padding:40px 0;
+margin-top:70px;
+}
+
+footer h2{
+color:#f7c948;
+margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+.about{
+grid-template-columns:1fr;
+}
+
+header .container{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:inline-block;
+margin:8px;
+}
+
+.overlay h1{
+font-size:38px;
+}
+
+}

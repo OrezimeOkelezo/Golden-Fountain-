@@ -1,0 +1,248 @@
+*{
+    padding: 0px;
+    margin: 0px;}
+body{
+    background-color: #ffffff;
+    padding: 0;    
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+#toolsbar{
+    margin: 0;
+    background: #ffffff;
+    text-align: center;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: #0d47a1;
+    margin: 0 10px;
+}
+
+#here{
+    padding: 3px 8px;
+    color: #e6f2ff;
+    background: #0d47a1;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#topbar{
+   background-image: url('../img/top2.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 500px;
+   display: flex;
+   align-items: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   padding-left: 20px;
+   color: #ffffff;
+   gap: 30px;
+}
+
+#t1{
+    font-size: 40px;
+    color: #e6f2ff;
+    margin-bottom: 0px;
+    line-height: 1.0;
+}
+
+#sp{
+    color: #daaf37;
+    margin: 0px;
+}
+
+#t2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: #e6f2ff;
+}
+t3{
+    font-size: 18px;
+    margin: 0;
+    max-width: 500px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#f{
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    background: #0d47a1;
+    color: #e6f2ff;
+    text-decoration: none;
+    border-radius: 16px;
+    width: 120px;
+    margin-top: 3px;
+    min-height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 0px;
+    box-shadow: 0 0 10px rgba(0,0,5,0.2);
+}
+#shop{
+    text-decoration: none;
+    color: #eaeaff;
+    font-size: 13px;
+}
+
+#q{
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #0d47a1;
+}
+#qual{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    margin-left: 0px;
+}
+#box{
+    margin-top: 8px;
+    background: #e6f2ff;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 8px;
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: center;*/
+}
+#tag{
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 0px;
+}
+
+#quall{
+    padding: 0px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    /*justify-content: center;*/
+    column-gap: 15px;
+    margin-left: 0px;
+}
+
+#v{
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: #000000;
+    margin-right: 0px;
+}
+#hold{
+    background: #0d47a1;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    max-height: 200px;
+    column-gap:15px;
+    justify-content: space-between;
+}
+#ti{
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#tx{
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 20px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+#holder{
+    background: #eeeeee;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*max-height: 200px;*/
+    column-gap: 15px;
+    justify-content: center;*/
+    /*justify-content: space-between;*/
+}
+#fu{
+    color: #0d47a1;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+#fut{
+    color: #000000;
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+#img{
+    margin-top: 15px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    background-image: url('../img/foot.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 250px;
+   display: flex;
+   align-items: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   padding-left: 20px;
+   color: #0d47a1;
+   margin: 0px;
+
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#f1{
+    margin: 0px;
+    font-size: 20px;
+    padding: 0px;
+}
+#li{
+    display: flex;
+    text-align: center;
+    gap: 0px;
+}
+span{
+    color: #daaf37;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+#f2{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+h5{
+    margin: 0px;
+}
+h4{
+    margin-top: 0px;
+}

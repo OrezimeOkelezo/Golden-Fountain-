@@ -1,0 +1,100 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f7f9fc;
+    color:#333;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:18px 20px;
+    background:#fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+}
+
+.back-btn{
+    width:42px;
+    height:42px;
+    border:none;
+    border-radius:50%;
+    background:#0d47a1;
+    color:#fff;
+    font-size:22px;
+    cursor:pointer;
+    transition:.3s;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+.back-btn:hover{
+    background:#084fa7;
+}
+
+.header h2{
+    font-size:22px;
+    color:#0d47a1;
+}
+
+.container{
+    max-width:900px;
+    margin:30px auto;
+    padding:0 20px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+.card p{
+    margin-bottom:18px;
+    line-height:1.9;
+    color:#555;
+}
+span{
+    color: #daaf37;
+}
+#ri{
+    font-size: 12px;
+    align-content: center;
+    text-align: center;
+}
+input, textarea {
+ width: 100%;
+ padding: 10px;
+ margin-top: 10px;
+ margin-right: 10px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+ }
+ form button {
+ margin-top: 15px;
+ padding: 10px;
+ width: 100%;
+ background-color: #0d47a1;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+ form button:hover {
+ background-color: #0056b3;
+ }
